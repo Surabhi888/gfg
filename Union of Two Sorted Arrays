@@ -1,0 +1,7 @@
+    def mergeArrays(self,a,b,n,m):
+        s=set()
+        for i in range(len(a)):
+            s.add(a[i])
+        for j in range(len(b)):
+            s.add(b[j])
+        return sorted(s)
